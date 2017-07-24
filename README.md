@@ -2,6 +2,14 @@
 
 Information for the NodeBots workshop at Node Summit 2017
 
+johnny-five.io
+https://github.com/nebrius/raspi-io
+https://github.com/nebrius/raspi-io/wiki/Getting-a-Raspberry-Pi-ready-for-NodeBots
+https://github.com/nebrius/raspi-io/wiki/Pin-Information
+https://github.com/nebrius/temperature-grid
+https://github.com/nebrius/temperature-grid-server
+
+
 # License
 
 MIT License
