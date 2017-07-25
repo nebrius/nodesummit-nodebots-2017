@@ -1,5 +1,13 @@
 # Node Summit 2017 NodeBots Workshop
 
+## First run
+
+```
+sudo apt-get upgrade && sudo apt-get update -y && sudo apt-get -y install git vim && curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash - && sudo apt-get install -y nodejs && cd nodebot && npm install johnny-five raspi-io
+```
+
+## Introduction
+
 In this workshop, we will be programming a Raspberry Pi using Node.js, [Johnny-Five](http://johnny-five.io/), and [Raspi IO](https://github.com/nebrius/raspi-io) to make Johnny-Five work on the Raspberry Pi. When using Raspi-IO, be sure to pay attention to the [pin naming scheme](https://github.com/nebrius/raspi-io/wiki/Pin-Information) as it can be a little confusing.
 
 The Raspberry Pi's provided come with Linux, Node.js, and Johnny-Five plus Raspi IO preinstalled. Look at the top of the Raspberry Pi and note the number on it. To log in to your Raspberry Pi:
