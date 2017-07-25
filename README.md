@@ -26,7 +26,7 @@ The objective is to make the LED blink once per second. Take a look at the [Led]
 
 For this part of the workshop, we will build a distributed environmental sensing system. For this part of the workshop, use the following schematic:
 
-![HDistributed Temperature Sensor Schematic](https://nebrius.github.io/static/node-summit-2017-workshop-1.png)
+![HDistributed Temperature Sensor Schematic](https://nebrius.github.io/static/node-summit-2017-workshop-2.png)
 
 For this part of the workshop, we will build two parts: the client and a server.
 
