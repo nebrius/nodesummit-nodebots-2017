@@ -18,7 +18,7 @@ If this all looks intimidating to you, don't worry! We will go through these ste
 
 For the this part of the workshop, we will build the "Hello World" of hardware: getting an LED to blink! For this part of the workshop, use the following schematic:
 
-![]()
+![Hello Raspi-IO Schematic](https://nebrius.github.io/static/node-summit-2017-workshop-1.png)
 
 The objective is to make the LED blink once per second. Take a look at the [Led](http://johnny-five.io/api/led/) class in Johnny-Five. Remember to check the [pin naming scheme](https://github.com/nebrius/raspi-io/wiki/Pin-Information) to see what the pin number should be!
 
@@ -26,7 +26,7 @@ The objective is to make the LED blink once per second. Take a look at the [Led]
 
 For this part of the workshop, we will build a distributed environmental sensing system. For this part of the workshop, use the following schematic:
 
-![]()
+![HDistributed Temperature Sensor Schematic](https://nebrius.github.io/static/node-summit-2017-workshop-1.png)
 
 For this part of the workshop, we will build two parts: the client and a server.
 
@@ -53,29 +53,6 @@ In this case, the "server" will be a Node.js process running on your local lapto
 I recommend using [socket.io](https://socket.io/) to handle the connection to make it easier for the server to tell the client to turn an alarm off. This can, however, be done with REST calls if you prefer.
 
 For bonus points, team up with a neighbor and make sure that connecting two or more Raspberry Pi's to the server works.
-
-# Temporary Notes
-
-write SD card
-
-Reserve IP
-
-sudo apt-get upgrade && sudo apt-get update -y && sudo apt-get -y install git vim && curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash - && sudo apt-get install -y nodejs && cd nodebot && npm install johnny-five raspi-io
-
-
-reboot
-
-run:
-
-```
-const Raspi = require('raspi-io');
-const five = require('johnny-five');
-const board = new five.Board({
-  io: new Raspi()
-});
-
-board.on('ready', () => new five.Led().strobe());
-```
 
 # License
 
